@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moo Muscle - Strength in Every Spoon</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header img {
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #4a90e2;
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 5px;
+        }
+        .product-info, .science-info {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .feature-image {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="moomuscle-logo.png" alt="Moo Muscle Logo">
+        <p>Strength in Every Spoon</p>
+    </header>
+    <main>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Moo Muscle is a scientifically developed high-protein dulce de leche ice cream designed specifically for older adults. Our mission is to provide delicious, nutritious, and easy-to-consume desserts that support muscle maintenance and overall health in the elderly.</p>
+        </section>
+        <section class="product-info">
+            <h2>Our Product</h2>
+            <p>Our ice cream is enriched with whey protein and fortified with essential vitamins and minerals, making it ideal for those at risk of age-related muscle loss (sarcopenia). It features a smooth, easy-to-swallow texture and is made with premium Irish dairy.</p>
+            <img src="elderly.png" alt="Elderly person enjoying Moo Muscle ice cream" class="feature-image">
+            <ul>
+                <li>High protein content with optimized leucine levels</li>
+                <li>Scientifically validated for digestibility in older adults</li>
+                <li>Delicious dulce de leche flavor</li>
+                <li>Suitable for mild swallowing difficulties</li>
+            </ul>
+        </section>
+        <section class="science-info">
+            <h2>Science Behind the Product</h2>
+            <p>Our high-protein dulce de leche ice cream is backed by peer-reviewed scientific research. Key findings include:</p>
+            <ul>
+                <li><strong>High Protein & Amino Acid Content:</strong> Whey protein-enriched desserts contain nearly three times the protein and essential amino acids—especially leucine—compared to standard dulce de leche. Leucine content is critical for muscle protein synthesis, which is essential for combating sarcopenia in older adults.</li>
+                <li><strong>Excellent Digestibility:</strong> Both whey protein isolate (WPI) and whey protein hydrolysate (WPH) enriched desserts achieve over 95% protein digestibility, even under simulated older adult gastrointestinal conditions. The digestible indispensable amino acid ratio (DIAAR%) is ≥100% for all essential amino acids, indicating excellent protein quality.</li>
+                <li><strong>Favorable Texture for Older Adults:</strong> The enriched desserts are significantly less firm and less adhesive than traditional dulce de leche, making them easier and safer to eat for individuals with reduced chewing strength or swallowing difficulties.</li>
+                <li><strong>Age-Specific Digestive Benefits:</strong> In vitro digestion models show that whey protein-enriched desserts maintain high digestibility even under older adult digestive conditions, with less impact from age-related changes in gastric pH and enzyme activity.</li>
+                <li><strong>Lower Sugar Content:</strong> The protein-enriched formulations have up to 28% less sugar than conventional dulce de leche, offering additional health benefits.</li>
+                <li><strong>Microstructural Advantages:</strong> The protein-enriched desserts form smaller, less dense protein aggregates during digestion, which further supports ease of consumption and digestion in older adults.</li>
+            </ul>
+            <p>These findings demonstrate that our product is not only nutritious but also tailored to the specific needs and preferences of older adults, supporting muscle health and overall well-being[1].</p>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>For inquiries, partnerships, or orders, please email us at <a href="mailto:info@moomuscle.com">info@moomuscle.com</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Moo Muscle. All rights reserved.</p>
+    </footer>
+</body>
+</html>
